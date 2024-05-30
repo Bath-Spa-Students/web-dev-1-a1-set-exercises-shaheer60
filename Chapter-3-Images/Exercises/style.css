@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+}
+
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  padding-top: 65px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.311);
+  margin-bottom: 60px;
+  margin-left: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 42px;
+}
+
+.one {
+  filter: blur(0.6px);
+  filter: brightness(60%);
+  filter: hue-rotate(180deg);
+  width: 430px;
+}
+
+.two {
+  filter: opacity(95%);
+  filter: contrast(150%);
+  width: 430px;
+}
+
+.three {
+  filter: sepia(85%);
+  width: 430px;
+}

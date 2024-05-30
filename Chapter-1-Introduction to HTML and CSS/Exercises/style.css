@@ -1,0 +1,60 @@
+.dish {
+  text-align: center;
+}
+
+.ing {
+  margin-top: 12px;
+  width: 24%;
+  background-color: rgb(232, 232, 232);
+  display: inline-block;
+}
+
+.ing h2 {
+  padding-left: 25px;
+  color: rgb(22, 223, 143);
+  font-family: monospace;
+}
+
+img {
+  height: 220px;
+  width: auto;
+  position: relative;
+  bottom: -4px;
+}
+
+.meth {
+  position: relative;
+  float: right;
+  width: 75%;
+  top: 12px;
+  padding-bottom: 5px;
+  background-color: rgb(232, 232, 232);
+}
+
+.meth h2 {
+  color: rgb(22, 223, 143);
+  padding-left: 12cm;
+  font-family: monospace;
+}
+
+h1 {
+  color: rgb(22, 223, 143);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+hr {
+  border: solid rgb(22, 223, 143);
+}
+
+p {
+  padding-top: 10px;
+  font-family: cursive;
+}
+
+body {
+  background-color: cornsilk;
+}
+
+li {
+  font-family: monospace;
+}
